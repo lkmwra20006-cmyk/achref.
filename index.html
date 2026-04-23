@@ -1,0 +1,178 @@
+<body>
+  <link rel="stylesheet" href="stylle.css">
+      <header>
+<a href="#" class="logo">Portfolio</a>
+<div class="toggle" onclick="toggleMenu();"></div>
+<ul class="menu">
+
+  <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+  <li><a href="#about" onclick="toggleMenu();">About</a></li>
+  <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+  <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+  <li><a href="#testimonial" onclick="toggleMenu();">Testimonials</a></li>
+  <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+</ul>
+</header>
+  <section class="banner" id="home">
+    <div class="text-banner">
+      <h2> I'm achref <br><span>website developer</span></h2>
+      <h3 class="h33"> Front End Web Design.</h3>
+     
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="heading">
+      <h2>About Me</h2>
+    </div>
+    <div class="content">
+      <div class="contentbox">
+        <h3>I am currently learning client web languages.</h3>
+        <p>I am a numerical innovative manager. And I'm training with Freecodecamp and Online tutorials to master HTML, CSS and Javascript languages. Here is the second template for a responsive portfolio landing page. <br>And what we should master in first year in my school.
+          <br><br>Enjoy ! </p>
+      </div>
+      <div class="w50">
+       
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="heading white">
+      <h2>Services</h2>
+      <p></p>
+    </div>
+    <div class="content">
+      <div class="servicesbox">
+        <div class="icon"><i class="fas fa-laptop-code"></i></div>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </div> 
+      <div class="servicesbox">
+        <div class="icon"><i class="fas fa-file-code"></i></div>
+        <h2>Web Development</h2>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </div> 
+      <div class="servicesbhox">
+        <div class="icon"><i class="fas fa-database"></i></div>
+        <h2></h2>
+        <p></p>
+      </div> 
+      <div class="servicesbox">
+        <div class="icon"><i class="fas fa-edit"></i></div>
+        <h2>Graphism</h2>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </div> 
+      <div class="servicesbox">
+        <div class="icon"><i class="fas fa-photo-video"></i></div>
+        <h2>Video Editing</h2>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </div> 
+    </div>
+  </div>
+  </section>
+  <section class="work" id="work">
+    <div class="heading white">
+      <h2>My latest work</h2>
+      <p>Here are some works done with HTML/CSS languages</p>
+    </div>
+    <div class="content">
+      <div class="workbox">
+       
+      </div>
+      <div class="workbox">
+      
+      </div>
+    </div>
+    <div class="heading">
+      <a href="#" class="btn">View more</a>
+    </div>
+  </section>
+<section class="testimonials" id="testimonial">
+  <div class="heading">
+      <h2>Testimonials</h2>
+      <p></p>
+    </div>
+  <div class="content">
+    <div class="testimonialbox">
+      <p></p>
+      <h3>achref ben ghellab<br><span>Creative Designer</span></h3>
+    </div>
+    <div class="testimonialbox">
+      <p></p>
+      <h3>achref ben ghellab<br><span>Creative Designer</span></h3>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="heading white">
+      <h2>Contact Me</h2>
+      <p>Some questions about work. Here you are.</p>
+  </div>
+    <div class="content">
+      <div class="contactinfo">
+        <h3>Contact Informations</h3>
+        <div class="contactinfobox">
+          <div class="box">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="text">
+              <h3>Adress</h3>
+              <p>Algrie<br>khanchela<br></p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>0551274100</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div class="text">
+              <h3>Mail</h3>              <p>achr4real@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="formbox">
+      <form action="https://formspree.io/f/xyklbrar" method="POST">
+  <h3>Message Me</h3>
+
+  <input type="text" name="name" placeholder="Full Name" required>
+
+  <input type="email" name="email" placeholder="Your email" required>
+
+  <textarea name="message" placeholder="Your message" required></textarea>
+
+  <input type="submit" value="Send">
+</form>
+    </div>
+    </div>
+</section>
+<div class="copyright">
+ achref 2026. All Rights Reserved
+</div>
+  <script type="text/javascript">  window.addEventListener('scroll', function(){
+  var header= document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 0);    
+    });
+    
+    function toggleMenu(){
+      var menutoggle = document.querySelector('.toggle');
+      var menu = document.querySelector('.menu');
+      menutoggle.classList.toggle('active');
+      menu.classList.toggle('active') 
+
+    }
+    
+     </script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  </script>
+  <canvas id="ai-bg"></canvas>
+
+<div class="content">
+  <h1>My Website</h1>
+  <p>Welcome...</p>
+</div>
+
+
+</body>
